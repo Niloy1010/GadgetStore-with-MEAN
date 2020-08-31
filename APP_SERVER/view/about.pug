@@ -1,0 +1,9 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+  .smallMargins
+    h1= title
+    +aboutDescription
+  
+  img.centerImage(src='/images/profilePicture.jpg' alt='')

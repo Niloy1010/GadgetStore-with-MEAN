@@ -1,0 +1,25 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-12
+        h1.pageTitle.listTItle=list.name
+  .row.bigMargins
+    .col-sm-12.col-md-6    
+      img.centerImageHome(src=list.img alt='')
+    .col-sm-12.col-md-6.alignText
+        div.general  
+            h2 GENERAL
+            p Price: #{list.price}
+            p Cpu: #{list.cpu}
+            p Internal Memory: #{list.internalMemory}
+            p Camera: #{list.camera}
+        div.platform
+            h2 PLATFORM :
+            p OS: #{list.platform.os}
+            p CHIPSET: #{list.platform.chipset}
+            p GPU : #{list.platform.gpu}
+
+        

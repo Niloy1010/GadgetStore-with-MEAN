@@ -1,0 +1,86 @@
+body {
+  font: 14px , sans-serif;
+}
+
+
+
+a {
+  color: black;
+}
+.navbar-own{
+  
+  background-color: #e3f2fd !important;
+}
+.pageTitle{
+  font-family: 'Overpass',sans-serif;
+	font-size: 40px;
+	margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.centerImageManual{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerImageHome{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+}
+.bigMargins{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.smallMargins{
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.alignText{
+  text-align:center;
+}
+
+/*List Display*/
+.individualProducts{
+  border: 2px solid black;
+}
+.itemBackground{
+  
+  background-color: #e3f2fd !important;
+}
+.normalDescription{
+  
+  font-family: sans-serif;
+	font-size: 20px;
+}
+.placeHolder{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.general{
+  border: 5px solid black;
+  padding: 20px;
+}
+.platform{
+  
+  border: 5px solid black;
+  padding: 20px;
+
+}
+.listTItle{
+  border: 5px solid #e3f2fd;
+}
+.centerAll{
+  text-align: center;
+}

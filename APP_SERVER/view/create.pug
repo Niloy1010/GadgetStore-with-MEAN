@@ -1,0 +1,46 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+    .row.centerAll.bigMargins
+      .col-lg-12
+        h1 ADD YOUR ITEM
+        form(action='', method="POST")
+            label(for='name') Name:
+            br
+            input#name(type='text' name='name')
+            br
+            label(for='camera') Camera:
+            br
+            input#camera(type='text' name='camera')
+            br
+            label(for='internalMemory') Memory:
+            br
+            input#internalMemory(type='text' name='internalMemory')
+            br
+            label(for='cpu') CPU:
+            br
+            input#cpu(type='text' name='cpu')
+            br
+            label(for='price') Price:
+            br
+            input#price(type='text' name='price')
+            br
+            label(for='img') Image Source:
+            br
+            input#img(type='text' name='img')
+            br
+            label(for='os') OS:
+            br
+            input#os(type='text' name='os')
+            br
+            label(for='chipset') Chipset:
+            br
+            input#chipset(type='text' name='chipset')
+            br
+            label(for='gpu') Gpu:
+            br
+            input#gpu(type='text' name='gpu')
+            br
+            br
+            input(type='submit' value='Submit')
